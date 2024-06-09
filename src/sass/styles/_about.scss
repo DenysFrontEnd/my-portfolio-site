@@ -1,0 +1,59 @@
+@import "../variables";
+
+.about {
+  & h2 {
+    margin-right: auto;
+  }
+  & p {
+    font-size: clamp(16px, 2vw, 32px);
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    // display: -webkit-box;
+    // -webkit-line-clamp: 4;
+    // -webkit-box-orient: vertical;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    // height: clamp(80px, 5.5vw, 130px);
+    transition-duration: 1s;
+
+    // &:hover {
+    //   // -webkit-line-clamp: 4;
+    //   height: calc(388px - 35vw);
+    // }
+
+    @media (min-width: $tablet) {
+      height: fit-content;
+    }
+  }
+}
+
+.hideText {
+  height: clamp(80px, 5.5vw, 130px);
+}
+.showText {
+  height: calc(388px - 35vw);
+}
+
+.about__moreBtn {
+  background-color: transparent;
+  border: none;
+  color: $btnColor;
+  font-size: clamp(16px, 2vw, 28px);
+  margin-left: auto;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  &:focus,
+  &:hover {
+    scale: 0.95;
+  }
+  @media (min-width: $tablet) {
+    display: none;
+  }
+}
+
+.about__btn {
+  margin-right: auto;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "my-portfolio-site",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://DenysFrontEnd.github.io/my-portfolio-site",
+  "figma": "https://www.figma.com/file/K2BoqkR8mAWYEbRdxde0gp/My-site-(Copy)?node-id=0%3A1&mode=dev",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /my-portfolio-site/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenysFrontEnd/my-portfolio-site"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenysFrontEnd/my-portfolio-site/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0",
+    "swiper": "^11.0.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

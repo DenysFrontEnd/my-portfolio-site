@@ -1,0 +1,78 @@
+@import "../variables";
+
+.hero {
+  padding: 0;
+}
+
+.hero__container {
+  gap: 5vw;
+  justify-content: space-between;
+  padding: 0;
+
+  @media (orientation: "landscape") {
+    height: 100vh;
+    flex-direction: row;
+    padding-right: 6vw;
+    align-items: flex-end;
+  }
+}
+
+.hero__imgWrapper {
+  height: 100vh;
+  width: 100%;
+  flex: 1;
+  // overflow: hidden;
+  & img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: top;
+  }
+
+  @media (orientation: "landscape") {
+    width: 48%;
+    flex: none;
+    & img {
+      object-fit: cover;
+    }
+  }
+}
+
+.hero__contentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  width: 90%;
+  gap: 32px;
+  // margin-bottom: 28px;
+
+  @media (orientation: "landscape") {
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+    margin-bottom: 0;
+  }
+}
+
+.hero__nameWrapper {
+  font-style: normal;
+  line-height: normal;
+  color: $mainFontColor;
+
+  & h1 {
+    // font-size: 48px;
+    font-weight: 700;
+    font-size: clamp(40px, 7vw, 96px);
+    margin-bottom: 12px;
+  }
+
+  & p {
+    font-weight: 300;
+    font-size: clamp(20px, 3vw, 36px);
+  }
+}
+
+.hero__btn {
+  background-color: $btnColor;
+}

@@ -1,0 +1,27 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-burger" viewBox="0 0 50 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M0.558 4.218c-0.77 0.46-0.734 1.752 0.053 2.168 0.239 0.115 2.716 0.133 23.739 0.133 23.128 0 23.474 0 23.757-0.177 0.752-0.451 0.752-1.672 0-2.123-0.283-0.177-0.628-0.177-23.774-0.177s-23.491 0-23.774 0.177z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M0.558 16.605c-0.77 0.46-0.734 1.752 0.053 2.168 0.239 0.115 1.451 0.133 10.688 0.133 10.042 0 10.432-0.009 10.697-0.168 0.734-0.442 0.734-1.699 0-2.141-0.265-0.159-0.655-0.168-10.715-0.168-10.202 0-10.449 0.009-10.724 0.177z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M0.752 28.762c-0.478 0.212-0.69 0.531-0.726 1.097-0.044 0.61 0.168 1.026 0.637 1.221s33.463 0.186 33.843-0.009c0.903-0.46 0.867-1.814-0.044-2.256-0.363-0.177-0.602-0.177-16.908-0.177-13.582 0.009-16.581 0.027-16.802 0.124z"></path>
+</symbol>
+<symbol id="icon-closeModal" viewBox="0 0 32 32">
+<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.5899" d="M23.921 7.899l-15.539 15.539"></path>
+<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.5899" d="M8.382 7.899l15.539 15.539"></path>
+</symbol>
+<symbol id="icon-map-pin" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M28 13.334c0 9.333-12 17.333-12 17.333s-12-8-12-17.333c0-3.183 1.264-6.235 3.515-8.485s5.303-3.515 8.485-3.515c3.183 0 6.235 1.264 8.485 3.515s3.515 5.303 3.515 8.485z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M16 17.334c2.209 0 4-1.791 4-4s-1.791-4-4-4c-2.209 0-4 1.791-4 4s1.791 4 4 4z"></path>
+</symbol>
+<symbol id="icon-toLeftArrow" viewBox="0 0 17 32">
+<path fill="#9d9d9d" style="fill: var(--color2, #9d9d9d)" d="M14.823 32l-14.823-16 14.823-16 2.631 2.84-12.192 13.16 12.192 13.16-2.631 2.84z"></path>
+</symbol>
+<symbol id="icon-toRightArrow" viewBox="0 0 17 32">
+<path fill="#9d9d9d" style="fill: var(--color2, #9d9d9d)" d="M2.631 0l14.823 16-14.823 16-2.631-2.84 12.192-13.16-12.192-13.16 2.631-2.84z"></path>
+</symbol>
+<symbol id="icon-circle-up" viewBox="0 0 32 32">
+<path d="M0 16c0 8.837 7.163 16 16 16s16-7.163 16-16-7.163-16-16-16-16 7.163-16 16zM29 16c0 7.18-5.82 13-13 13s-13-5.82-13-13 5.82-13 13-13 13 5.82 13 13z"></path>
+<path d="M22.086 20.914l2.829-2.829-8.914-8.914-8.914 8.914 2.828 2.828 6.086-6.086z"></path>
+</symbol>
+</defs>
+</svg>
