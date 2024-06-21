@@ -70,7 +70,6 @@
   height: 8px !important;
   background-color: $btnColor !important;
   top: -1px !important;
-  // width: 33% !important;
 }
 
 .swiper-slide {
@@ -103,24 +102,6 @@
 
 //Звідси починаються стилі десктопної версії
 
-// .visually-hidden {
-//   position: absolute;
-//   width: 1px;
-//   height: 1px;
-//   margin: -1px;
-//   border: 0;
-//   padding: 0;
-
-//   white-space: nowrap;
-//   clip-path: inset(100%);
-//   clip: rect(0 0 0 0);
-//   overflow: hidden;
-
-//   outline: 0;
-//   outline-offset: 0;
-//   pointer-events: none;
-// }
-
 .desktop-portfolio {
   width: 100%;
   display: none;
@@ -137,10 +118,6 @@
 }
 
 .desktop-portfolio__item {
-  //   &:not(:last-child) {
-  //     margin-right: 30px;
-  //   }
-
   &:first-child {
     margin-top: 180px;
   }
@@ -211,8 +188,4 @@
     margin-right: 0;
     margin-left: auto;
   }
-
-  //   box-shadow: 14px -63px 765px 64px $btnColor;
-  //   -webkit-box-shadow: 14px -63px 765px 64px $btnColor;
-  //   -moz-box-shadow: 14px -63px 765px 64px $btnColor;
 }

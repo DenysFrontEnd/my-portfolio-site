@@ -9,19 +9,11 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    // display: -webkit-box;
-    // -webkit-line-clamp: 4;
-    // -webkit-box-orient: vertical;
 
     text-overflow: ellipsis;
     overflow: hidden;
-    // height: clamp(80px, 5.5vw, 130px);
-    transition-duration: 1s;
 
-    // &:hover {
-    //   // -webkit-line-clamp: 4;
-    //   height: calc(388px - 35vw);
-    // }
+    transition-duration: 1s;
 
     @media (min-width: $tablet) {
       height: fit-content;

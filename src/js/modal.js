@@ -12,11 +12,7 @@ const openModalHendler = () => {
     backDrop.classList.add("modal__backDrop-visible");
   }, 100);
 
-  //   contactForm.classList.add("modal__form");
-  body.style.overflow = "hidden";
-  //   console.log(modal.className);
-  //   console.log(modal.classList);
-  //   console.log(modal.className.includes("modal__visible"));
+  body.style.overflowY = "hidden";
 };
 
 export const closeModalhandler = () => {
@@ -25,7 +21,7 @@ export const closeModalhandler = () => {
   setTimeout(() => {
     modal.classList.remove("modal__visible");
     body.style.overflowX = "hidden";
-    body.style.overflow = "auto";
+    body.style.overflowY = "auto";
   }, 1000);
 };
 

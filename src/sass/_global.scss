@@ -7,7 +7,7 @@
   padding: 0;
   margin: 0;
   transition-duration: 250ms;
-  // outline: 1px solid red;
+  //outline: 1px solid red;
 }
 
 html {
@@ -23,7 +23,7 @@ body {
   align-items: center;
   min-height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
+  //overflow-x: hidden;
 }
 
 main {
@@ -49,7 +49,7 @@ section {
 .container {
   width: 100%;
   max-width: 1920px;
-  // margin: 40px 16px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,13 +58,8 @@ section {
   margin-right: auto;
 
   @media (min-width: $tablet) {
-    // margin: 72px 40px;
     gap: 32px;
   }
-  // @media (min-width: $desktop) {
-  //   // margin: 130px 106px;
-  //   max-width: 1920px;
-  // }
 }
 
 .button {

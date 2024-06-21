@@ -8,7 +8,6 @@
     color: $mainFontColor;
     font-style: normal;
     line-height: normal;
-    // font-size: clamp(20px, 3vw, 40px);
   }
   & p {
     font-weight: 700;
@@ -24,8 +23,6 @@
   & a:hover,
   & a:focus {
     color: $btnColor;
-    // text-decoration: underline;
-    // text-underline-offset: 6px;
   }
 
   & .contacts_sossialLinks {
